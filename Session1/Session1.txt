@@ -1,0 +1,94 @@
+Why Java?
+What is Java? --> Java is Programming Language
+
+Language - medium
+
+1940's --> Machine level lang -- Binary -- 0/1's 
+
+0011 
+
+1970's
+Procedural Langauage:- SSAD --> C 
+Standards to write a Programm/Application
+Top - down approach
+1] client requirement --> ATM machine
+2] functional requiremnt --> welcome(), enterPin(), withdraw()
+3] Data dic --> int pin
+4] Mapping --> Data with functions
+5] Flow --> sequence --> 
+6] Design --> UML --> Use Case, Activity, ER 
+7] Code --> C language
+8] Testing 
+
+1990's
+OOP's--> 
+
+
+C,Cpp,C#,Python....... --> Why java?
+
+--> Platform Independant
+
+Type of Java :-
+
+J2SE --> Java Standard Edition  --> Core Java --> Stand alone application
+J2EE --> Java Enterprise Edition--> Web App
+J2ME --> Java Micro Edition 	--> Android, DishTV box, 
+
+History Java:- Games Gosling 42
+Green Project --> 1991 --> Platform Indepedant
+Oak --> Tree --> SunMicrosystems and later acquired by Oracle
+Java --> 1994 --> Coffee --> Indonasia Island (Java)
+ 
+
+1] JDK --> Java 8 --> Oracle --> Download and Install
+2] Set Environment Variable
+3] Eclipse for EE--> luna, Juno , Oxygen, neon
+
+CMD:-
+javac --> compile
+java --> execute
+
+Programming Language:-
+
+a = 10;
+b = 20;
+
+data + operator --> logic
+
+logic --> 10+20 --> a + b;
+
+Data Type:- Container Type --> 8 Data type in java
+
+c/cpp --> char 1 byte
+
+Numeric			  Decimal			Character			Boolean
+
+byte  - 1 byte - 8 bit	  float  - 4 byte - 32bit	char - 2 byte unicode UTF 	0 or 1 
+short - 2 byte - 16 bit   double - 8 byte - 64bit					1 byte -->1 bit 
+int   - 4 byte - 32 bit
+long  - 8 byte - 64 bit									true or false --> on or off
+
+signed --> -ve and +ve
+
+0 0 0 0 0 0 1 1  - 3
+
+256  
+
+-128 to 0 to 127
+
+
+
+Loops:- 
+1] While
+2] do...while
+3] for   
+
+
+
+
+
+
+
+
+
+
