@@ -81,7 +81,43 @@ signed --> -ve and +ve
 Loops:- 
 1] While
 2] do...while
-3] for   
+3] for  
+3.1] for each  
+
+
+
+Array:- Multivalue - Container --> 1 or more values --> same type --> homogenious
+
+
+
+Method:-
+
+in java we call functions as a method
+
+	add(){
+		//statement1
+		//statement2
+		.	
+		.
+	}
+
+
+
+
+static, object, final, 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
