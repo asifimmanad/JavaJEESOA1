@@ -1,0 +1,115 @@
+Data Handling:-
+Arrays -> 1 Dimentional 
+       -> multi dimentional
+
+Method:-
+	-> statements executed again and again
+	
+Procedural Language:-
+
+SSAD:- 
+
+Disadvantages:-
+More focus is on process/data 
+Not defiened --> Real world problems to Software domain
+  	     --> English word document --> Software --> difficult
+ATM machine -->
+	    --> welcome()
+	    --> withdraw()
+1 year complete 
+change request   --> deposit()
+		 --> accept debit and credit cards
+Can not reuse same application/code
+
+
+OOP:-
+Class and Object
+4 major 
+1] Abstraction 	 --> Focus only on key aspect and ignore rest 
+eg:- Person 
+ --> General survey     --> 1] Name, Address, Age
+ --> Educational survey --> 2] Name, qualification, grade
+ --> Medical Survey     --> 3] Name, Height, Age, Blood Group
+
+key:--> class, method, variable
+Java :--> class and method
+
+2] Encapsulation --> Binding/wrapping of data and hiding of a data (Access specifiers)
+eg:- class and methods
+e.g:- capsule --> contain 2 or more --> binding
+
+3] Inheritance  --> 
+4] Polymorphism --> 1 thing many forms --> greekword
+
+		--> rewrite methods better
+class Arithmetic{
+add()
+add(int a, int b)
+add(int a, int b, int c)
+}
+
+CompileTime Polymorphism --> Overloading 
+Runtime Polymorphism  --> Overriding
+
+
+
+Demo
+Constructor
+Static keyword
+Final Keyword
+
+String class
+
+Object :-
+Tangible --> which you can touch in real
+Real world:--> Chair, Table, Computer, Trees, Leaves, fan
+Which has state and behavior
+state of fan is off 
+
+Computer Science:-
+Object is instance of a class
+
+Class :-
+Structure/Plan
+class is a blue print 
+
+Primitive data type:- 8 types in java 
+
+Object:- --> 
+
+classname variable = new classname();
+
+
+method:-
+business logic --> loops, if
+
+constructor --> why --> starting of class 
+--> to initialize global variables
+--> is a special method
+--> constructor name is same as that of class name
+--> no return type -> not even void
+--> called automatically when we create a object of class
+    --> new Employee(); -> calling constructor
+--> default constructor
+--> para constructor
+
+startEngine()   --> constructor
+runningEngine() --> method
+
+
+jdk 8 --> 64 bit
+eclipse -->64 bit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
