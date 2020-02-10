@@ -1,0 +1,137 @@
+Inheritance 
+Polymorphism
+ --> 
+
+Overriding 		vs 		Overloading
+
+Runtime 				Compiletime
+Dynamic					Static
+Late Binding				Early Binding
+
+Parent - child 				Same class
+signature remains same			signature must different
+					Return type not considered
+
+Final - keyword - variable, method, class
+static -  class variables
+
+button 
+
+class TodayDeal extends Frame{
+
+button(){
+
+
+}
+}
+
+
+class Help extends Frame{
+
+button(){
+
+
+}
+}
+
+"is a"  or "has a"
+
+
+
+Package --> classification
+
+private, 		default (No access modi), protected, 		public
+
+only within the class	Within same package	  same package and	everywhere
+						  inheritance
+concrete :- tangible
+Abstract class :- concept --> non tangible --> generic
+
+calculate area of a shape --> write method --> not possible
+calculate area of a circle --> write method --> possible
+
+
+
+
+abstract class BankAccount{
+
+abstract void withdraw();
+
+abstract void deposit();
+}
+
+
+class ICICIBank extends BankAccount{
+
+	void withdraw()	{
+		//
+	}
+}
+
+
+
+
+
+abstract class Shape{
+	abstract void area();
+}
+
+calculate salary of employee --> write method --> not possible
+
+1] Even if you have 1 abstract method in class then class needs to be abstract
+2] abstract keyword only be used for class and method
+3] abstract class can contain abstract as well as concrete methods
+4] abstract class can contain only concrete method
+5] Can not create object of abstract class
+6] Abstract methods must be overriden
+
+
+class A extends B,C{		--> Not possible
+
+}
+
+
+class MyClass implements IA,IB,IC,ID{	--> possible
+
+}
+
+Interface :-
+1] Programming by Contract 
+2] multiple inheritance
+3] Pure Abstract --> all methods in interface are by default abstract 
+
+// rules
+Interface RBI{  --> set some rules to all banks
+
+	public abstract void withdraw();
+	public abstract void deposit();
+	
+}
+
+class ICICIBank implements RBI{
+}
+
+class SBIBank implements RBI{
+}
+
+class AxisBank implements RBI{
+}
+
+1] interface can extend interface but class implements interface
+2] class can implement more than 1 interface
+3] Methods of interface must be overriden
+4] Can not create object of interface --> pure abstract --> all methods are abstract
+
+String :- not a data type its a class
+1] is called immutable in java --> update or modify
+
+-->To work with STring
+	
+						
+String 			  StringBuffer 		StringBuilder --> jdk 1.5
+Immutable		  mutable		mutable
+equals checks for value   equals checks for addr  equals checks for addr
+			  methods are synch	methods are not synch
+			  slower		faster
+			  reverse()		append()
+

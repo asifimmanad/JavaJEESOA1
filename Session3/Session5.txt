@@ -1,0 +1,78 @@
+OOPs:-
+class and Object
+Abstraction
+Encapsulation
+Inheritance
+Polymorphism
+
+Object --> has its own state --> every object is different
+
+static keyword --> attributes, methods, Inner class 
+-->class member 
+-->static members are accessed on class name --> no need of object
+-->inside static block everything must be static
+
+
+
+Organization{
+id,name,salary;
+}
+
+we are the employee
+
+name="asif";
+salary=10000;
+
+id = 007
+
+
+Employee.main()
+
+
+static void main --> starting point of application
+
+static block --> called even before main 
+
+
+
+Inheritance:-
+
+derive a class from existing class by acquiring properties of base class
+
+reduce redundancy --> reuse
+"is a"
+
+Employee
+-->
+Developer
+--> 
+Sr.Developer
+
+
+constructor execution is always parent to child or super to sub
+
+this --> to refer to same class
+
+Keyword --> super 
+--> to call parent to refer parent 
+--> constructor chaining 
+--> parent to child class 
+
+
+--> child class object can call parent as well as child class members
+
+Overriding-->
+runtime polymorphism
+late binding
+dynamic polymorphism
+rewriting method --> improve previous method
+parent - child
+signature must be same --> method name,
+		       --> num of para
+		       --> type of para
+		       --> sequence of para		
+		       
+
+
+return type is not a part of signature
+
