@@ -29,7 +29,7 @@ public class ThreadDemo implements Runnable {
 
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 
 		// int n = Thread.activeCount();
 
@@ -50,7 +50,12 @@ public class ThreadDemo implements Runnable {
 		
 		
 		t1.start();
+		
+		t1.join();
+		
 		t2.start();
 
+		
+		//wait and notify  --> interthread communication
 	}
 }
