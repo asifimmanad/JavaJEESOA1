@@ -1,0 +1,21 @@
+delimiter //
+
+ create procedure Myprocedure(IN eid int,IN ename varchar(20))
+ begin
+
+insert into history values(eid,ename);
+delete from emp where id = eid;
+
+ end //
+
+delimiter ;
+
+call Myprocedure(101,@name);
+
+select @name;
+
+
+//in oracle
+danme varchar2(20);
+
+call Myprocedure(101,:dname);

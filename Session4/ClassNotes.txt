@@ -1,0 +1,153 @@
+Abstract Class
+Interfaces
+String
+Packages
+
+--> Exception Handling
+--> Multithreading
+
+--> FIle --> Java.io
+--> Collections
+
+
+Exceptions:- are runtime problems --> not errors
+
+--> error and exception are different
+
+--> Runtime problems which can be resolved
+
+Exceptions can be solved
+Errors can not be solved
+
+ATM:- 
+
+error msg --> termination --> error
+
+invalid pin --> enter pin --> runs 
+
+
+try{
+
+}catch(){
+
+}
+
+try{
+
+}catch(){
+//solution1
+}catch(){
+//solution2
+}
+...
+
+
+try{
+
+	try{
+
+	}catch(){
+
+	}
+}catch(){
+
+}
+
+try{
+
+}catch(){
+
+}finally{
+
+}
+
+try{
+
+}catch(){
+
+}
+catch(){
+
+}finally{
+
+}
+
+
+try{
+
+}finally{
+
+}
+
+
+
+impicit exception --> generic problems
+
+explicit -->userdefiend exception --> specific problems
+
+
+age > 18 then you can vote --> InvalidAgeException extends Exception
+
+hhj1i2oy8o --> InvalidPhoneNumber
+
+
+
+Throw --> to throw object of exception (impicit or expiclit)
+
+throw new Exception();
+
+Throws --> Propogate the exception --> transfer the responsibility of handling the exception to caller
+is in front of method
+
+void myMethod() throws Exception{
+
+}
+
+
+try{
+	obj.myMethod();
+}
+catch(){
+
+}
+
+
+Multithreading:-
+
+Program
+Task vs Process vs Thread
+
+Training Java
+
+Going to work 
+
+java.lang.*; --> default package
+
+java.io.*;
+IO:-> Reading and Writing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

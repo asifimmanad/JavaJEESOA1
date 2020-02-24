@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Students>
+	<Student>
+		<rollno>101</rollno>
+		<name>John</name>
+		<email>john@gmail.com</email>		
+	</Student>
+	<Student>
+		<rollno>102</rollno>
+		<name>Jack</name>
+		<email>jack@gmail.com</email>		
+	</Student>
+	<Student>
+		<rollno>103</rollno>
+		<name>Mac</name>
+		<email>mac@gmail.com</email>		
+	</Student>
+</Students>

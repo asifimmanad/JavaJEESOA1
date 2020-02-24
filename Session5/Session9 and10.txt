@@ -1,0 +1,74 @@
+Multithreading
+IO
+
+Wrapper Classes:-
+
+java.util.*;
+Collections:- API/Framework
+collection/store of data (object)
+
+Array --> store data
+
+Fixed Size --> int a[] = new int[10];
+Employee e[] = new Employee[10];
+
+can not grow dynamically
+same type
+
+DataStructure :- way to store/manage/fetch data
+
+Stack: LIFO
+Queue: FIFO
+Sorting
+List: Ordered
+Set: Unique
+
+Diff between Array and ArrayList
+
+JDBC :-
+Java Database Connectivity 
+
+File vs Collections vs DB
+
+How to store data in DB:-
+
+SQL :-
+create
+insert
+update
+delete
+
+DDL - create, alter, drop
+DML - insert, update, delete
+DQL - select 
+TCL - commit, rollback, savepoint
+
+
+MySql 
+XAMPP OR WAMPP Server
+
+ACID
+
+Batch update - 
+Transaction - deposit and withdraw
+setAutocommit(false);
+commit 
+rollback
+
+XML
+JEE
+
+JVM Memory Management
+OCA/OCP
+JDBC - ref 
+Junit - ref
+
+
+
+
+
+
+
+
+
+
