@@ -1,0 +1,14 @@
+XAMPP Server Post issue mac:-
+
+https://superuser.com/questions/908111/xampp-wont-start-apache-on-mac-os-x-10-10-3-yosemite
+
+https://stackoverflow.com/questions/4582504/xampp-apache-webserver-localhost-not-working-on-mac-os/19109755
+
+https://stackoverflow.com/questions/4582504/xampp-apache-webserver-localhost-not-working-on-mac-os
+
+Other OS:-
+https://webolute.com/blog/programming/this-may-be-due-to-a-blocked-port-missing-dependencies
+
+https://stackoverflow.com/questions/18300377/xampp-apache-error-apache-shutdown-unexpectedly
+
+https://alexjustesen.com/2018/07/30/how-to-change-your-apache-listen-port-number-in-xampp/

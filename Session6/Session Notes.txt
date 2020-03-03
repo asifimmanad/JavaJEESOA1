@@ -1,0 +1,83 @@
+XML:-
+What XML
+
+Cricket Score
+
+1] Run: 300/5
+
+2] Run-> 300 - 5
+
+3] 5 -- 300 <-- Run
+
+
+class Student{
+
+int rollNum;
+String name;
+String email;
+
+
+getXXX
+
+setXXX
+
+}
+
+Why XML
+
+XML Parsing:-
+DOM
+SAX
+
+WebApplication:- J2EE
+
+Servlets:-
+
+
+TomCat run on port :8080
+
+We dont have main in JEE application
+
+WHo controls applin:- Container --> Server
+Servlet Lifecycle:-
+		1] init      --> Constructor
+		2] Service   --> BO
+		3] Destroy   --> Server Shutdowns
+
+
+RequestDispatcher:-
+
+forward --> welcome.jsp
+include --> login.html
+
+Session Tracking:-
+
+1] URL rewriting
+2] Hidden form fields
+3] Cookies
+4] HttpSession
+
+
+
+JSP:- Java Server pages
+
+JSP Tags:-
+
+<%  %>	1] Scriptlet -- only local vari, and statements
+<%! %>	2] Declarative -- instance vari and method
+<%= %>	3] Expression -- print
+
+
+Directive:-
+
+page
+include --> rd.include
+EL 
+
+Tag lib
+
+Action tags
+
+
+
+
