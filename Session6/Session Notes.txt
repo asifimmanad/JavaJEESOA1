@@ -57,7 +57,7 @@ Session Tracking:-
 3] Cookies
 4] HttpSession
 
-
+Servlet - JDBC 
 
 JSP:- Java Server pages
 
@@ -67,16 +67,47 @@ JSP Tags:-
 <%! %>	2] Declarative -- instance vari and method
 <%= %>	3] Expression -- print
 
-
+EL
 Directive:-
 
-page
+page - <@ page import,extends,errorpage>
 include --> rd.include
-EL 
-
 Tag lib
 
-Action tags
+JSTL:- JSP standard tag lig
+
+jstl 1.2 jar
+
+Action tags:-
+
+jsp:include
+jsp:forward
+jsp:getbean
+jsp:getProperty
+jsp:setProperty
+
+Framework:- half impl --> to save dev time 
+Hibernate:-
+
+Class.forName();
+
+
+Steps:-
+
+	1. java project
+	2. bean class 	--> Employee
+	3. HBM.xml 	--> employee.hbm.xml	--> mapping of object to tables columns
+	4. config.xml 	--> hibernate.cfg.xml   --> Info of DB
+	5. client 	--> Hibernate API
+
+
+Load Hibernet jars
+API:-
+	Configuration
+	SessionFactory  --> connection pool
+	Session		--> open connection
+	Transaction	
+
 
 
 

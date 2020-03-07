@@ -1,0 +1,16 @@
+JVM Tuning:
+https://docs.oracle.com/cd/E13222_01/wls/docs81/perform/JVMTuning.html
+
+https://backstage.forgerock.com/knowledge/kb/article/a35746010
+
+https://dzone.com/articles/how-to-properly-plan-jvm-performance-tuning
+
+https://www.youtube.com/watch?v=8wHx31mvSLY
+
+https://www.youtube.com/watch?v=o6qx_zvpOyI
+
+JVM Memory Management:
+https://www.javatpoint.com/memory-management-in-java
+
+https://dzone.com/articles/java-memory-management
+

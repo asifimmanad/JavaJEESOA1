@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Soft/All Jars/Hibernate/HibernateJars/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="D:/Soft/All Jars/Hibernate/HibernateJars/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="D:/Soft/All Jars/Hibernate/HibernateJars/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Soft/All Jars/Hibernate/HibernateJars/commons-logging-api-1.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Soft/All Jars/Hibernate/HibernateJars/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/Soft/All Jars/Hibernate/HibernateJars/ehcache-1.2.3.jar"/>
+	<classpathentry kind="lib" path="D:/Soft/All Jars/Hibernate/HibernateJars/hibernate3.jar"/>
+	<classpathentry kind="lib" path="D:/Soft/All Jars/Hibernate/HibernateJars/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Soft/All Jars/Hibernate/HibernateJars/javassist-3.12.0.GA.jar"/>
+	<classpathentry kind="lib" path="D:/Soft/All Jars/Hibernate/HibernateJars/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Soft/All Jars/Hibernate/HibernateJars/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="D:/Soft/All Jars/Hibernate/HibernateJars/mysql-connector-java-5.1.16-bin.jar"/>
+	<classpathentry kind="lib" path="D:/Soft/All Jars/Hibernate/HibernateJars/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/Soft/All Jars/Hibernate/HibernateJars/slf4j-log4j12-1.6.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
