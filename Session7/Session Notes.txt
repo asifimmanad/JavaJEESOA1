@@ -1,0 +1,59 @@
+Hibernate:- Framework
+ORM --> 
+Steps:-
+Create Java Project
+Create Employee bean class  --> Model
+Create HBM XML file --> employee.hbm.xml file --> copy doctype from any hbm file
+Create config XML file --> hibernate.cfg.xml --> copy doctpe from any config file
+Create Client class to connect DB-->
+	add hibernate jars to build path
+
+	Configuration
+	SessionFactory
+	Session
+	Transaction
+
+CRUD:-
+
+	session.save()
+	session.get()
+	session.update()
+	session.delete()
+
+HQL
+
+Criteria
+Restrictions
+Batch Update:-
+
+Annotations:
+@Entity
+@Table
+@Id
+@Column
+@GeneratedValue
+To enable 2nd lvl cache:-
+@Cacheable
+@Cache(usage = CacheConcurrencyStrategy.READ_ONLY)
+
+
+
+Relations:-
+
+one to one  --> pri key foreign key
+one to many
+many to many 
+
+Cache:
+1. session 1st lvl cache -- default 
+2. sessionfactory 2nd lvl cache --> need to enable 2nd lvl caching 
+3. query caching
+
+Spring:-
+Framework of framework 
+Why Spring:-
+Inversion of Control --> Dependency Injection
+
+
+
+
