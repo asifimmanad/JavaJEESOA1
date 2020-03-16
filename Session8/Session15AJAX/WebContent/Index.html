@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+
+<script type="text/javascript">
+	var request;
+	function sendInfo() {
+		var number = tableForm.txtNumber.value;
+		var url = "Table.jsp?number=" + number;
+
+		if (window.XMLHttpRequest) {
+			request = new XMLHttpRequest();
+			//alert("inside sendInfo");
+		}
+
+		try {
+			request.onreadystatechange = getInfo;
+			request.open("GET", url, true);
+			request.send();
+			//	alert("request sent");
+		} catch (e) {
+			alert("Some Error!!! Try Again!!!");
+		}
+	}
+	function getInfo() {
+		if (request.readyState == 4) {
+			//	alert("request.readyState == 4");
+
+			var val = request.responseText;
+			document.getElementById("data").innerHTML = val;
+
+		}
+	}
+</script>
+
+
+<body>
+	<h3>Table Of a Number</h3>
+
+	<form name="tableForm">
+
+		<input type="text" name="txtNumber" placeholder="Enter Number: eg:-5"
+			onkeyup="sendInfo()">
+
+	</form>
+
+	<br>
+	<br>
+
+	<span id="data"> </span>
+
+
+</body>
+</html>

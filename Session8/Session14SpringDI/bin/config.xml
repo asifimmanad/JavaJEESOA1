@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean class="com.asif.bean.Employee" id="emp" lazy-init="true"
+		scope="singleton" init-method="initMethod"
+		destroy-method="destroyMethod" autowire="byType">
+		<property name="empId" value="777" />
+		<property name="empName" value="James Bond" />
+	</bean>
+
+	<bean class="com.asif.bean.Address" id="addr" lazy-init="true">
+		<property name="city" value="Pune" />
+		<property name="street" value="FC Road" />
+		<property name="zip" value="411178" />
+	</bean>
+
+
+</beans>

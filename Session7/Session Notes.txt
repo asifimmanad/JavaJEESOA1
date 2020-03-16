@@ -49,10 +49,6 @@ Cache:
 2. sessionfactory 2nd lvl cache --> need to enable 2nd lvl caching 
 3. query caching
 
-Spring:-
-Framework of framework 
-Why Spring:-
-Inversion of Control --> Dependency Injection
 
 
 
