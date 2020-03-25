@@ -1,0 +1,49 @@
+SOA:- Architectural Style
+
+Client - server
+3 - tier
+n - tier
+SOA - Service Oriented Architecture
+
+WebServices :- Business Logic over web
+
+SOAP - Simple Object Access Protocol - Object - Uses XML
+	Object converted to XML
+	and XML back to Object
+UDDI
+WSDL --> Web service description language
+
+REST - Representational State Transfer
+	combination of other standards
+	
+--> service requires 4 componants
+	--> Resource 	--> HTML/Text/Image/DB
+	--> URL 	--> Resource Locator
+	--> Connector	--> Protocol --> Http --> Request, Response
+	--> Representaion--> XML, JSON --> (Media Type)
+
+Jersy --> JAX-RS --> JAVA API for XML --> Restful web service
+
+@path:maps request from client
+on class or method,URL
+which class(resource) the request should be processed
+
+
+@get:
+to get the resource
+which method to be called on get request
+
+
+@produces:server to client
+on method which returns resource
+what type of media you want to produce
+return XML:- MediaType.APPLICATION_XML
+return JSON:- MediaType.APPLICATION_JSON
+
+
+
+
+
+
+
+

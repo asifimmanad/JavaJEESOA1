@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://asif.com" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="http://asif.com" xmlns:intf="http://asif.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!--WSDL created by Apache Axis version: 1.4
+Built on Apr 22, 2006 (06:55:48 PDT)-->
+ <wsdl:types>
+  <schema elementFormDefault="qualified" targetNamespace="http://asif.com" xmlns="http://www.w3.org/2001/XMLSchema">
+   <element name="sayHello">
+    <complexType/>
+   </element>
+   <element name="sayHelloResponse">
+    <complexType>
+     <sequence>
+      <element name="sayHelloReturn" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="dollarToRupees">
+    <complexType>
+     <sequence>
+      <element name="d" type="xsd:int"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="dollarToRupeesResponse">
+    <complexType>
+     <sequence>
+      <element name="dollarToRupeesReturn" type="xsd:int"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="mtrsToCms">
+    <complexType>
+     <sequence>
+      <element name="mtrs" type="xsd:int"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="mtrsToCmsResponse">
+    <complexType>
+     <sequence>
+      <element name="mtrsToCmsReturn" type="xsd:int"/>
+     </sequence>
+    </complexType>
+   </element>
+  </schema>
+ </wsdl:types>
+
+   <wsdl:message name="dollarToRupeesRequest">
+
+      <wsdl:part element="impl:dollarToRupees" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="mtrsToCmsResponse">
+
+      <wsdl:part element="impl:mtrsToCmsResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="sayHelloRequest">
+
+      <wsdl:part element="impl:sayHello" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="dollarToRupeesResponse">
+
+      <wsdl:part element="impl:dollarToRupeesResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="sayHelloResponse">
+
+      <wsdl:part element="impl:sayHelloResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="mtrsToCmsRequest">
+
+      <wsdl:part element="impl:mtrsToCms" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:portType name="Converter">
+
+      <wsdl:operation name="sayHello">
+
+         <wsdl:input message="impl:sayHelloRequest" name="sayHelloRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:sayHelloResponse" name="sayHelloResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="dollarToRupees">
+
+         <wsdl:input message="impl:dollarToRupeesRequest" name="dollarToRupeesRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:dollarToRupeesResponse" name="dollarToRupeesResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="mtrsToCms">
+
+         <wsdl:input message="impl:mtrsToCmsRequest" name="mtrsToCmsRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:mtrsToCmsResponse" name="mtrsToCmsResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:portType>
+
+   <wsdl:binding name="ConverterSoapBinding" type="impl:Converter">
+
+      <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+      <wsdl:operation name="sayHello">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="sayHelloRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="sayHelloResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="dollarToRupees">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="dollarToRupeesRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="dollarToRupeesResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="mtrsToCms">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="mtrsToCmsRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="mtrsToCmsResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:binding>
+
+   <wsdl:service name="ConverterService">
+
+      <wsdl:port binding="impl:ConverterSoapBinding" name="Converter">
+
+         <wsdlsoap:address location="http://localhost:8087/Session16SOAP/services/Converter"/>
+
+      </wsdl:port>
+
+   </wsdl:service>
+
+</wsdl:definitions>
